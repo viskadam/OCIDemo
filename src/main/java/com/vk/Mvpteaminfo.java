@@ -34,14 +34,6 @@ public class Mvpteaminfo {
 		this.mvp_team_member = mvp_team_member;
 	}
 
-	public String getMvpid() {
-		return ref_architecture_selected;
-	}
-
-	public void setMvpid(String ref_architecture_selected) {
-		this.ref_architecture_selected = ref_architecture_selected;
-	}
-
 	public String getRef_architecture_selected() {
 		return ref_architecture_selected;
 	}
