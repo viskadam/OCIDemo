@@ -8,6 +8,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "mvpteaminfo")
 public class Mvpteaminfo {
+	
+	public Mvpteaminfo() {
+		
+	}
 
 	@Id
 	private Long mvp_team_id;
