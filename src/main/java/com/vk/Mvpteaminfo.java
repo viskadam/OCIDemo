@@ -48,4 +48,12 @@ public class Mvpteaminfo {
 		this.mvp_team_member = mvp_team_member;
 		this.mvpname = mvpname;
 	}
+
+	@Override
+	public String toString() {
+		return "Mvpteaminfo [mvp_team_id=" + mvp_team_id + ", mvp_team_member=" + mvp_team_member + ", mvpname="
+				+ mvpname + "]";
+	}
+	
+	
 }
